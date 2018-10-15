@@ -1,14 +1,11 @@
 oh-my-zsh:
   users:
-    vagrant:
-      username: vagrant
-      group: vagrant
-    deploy:
-      username: vagrant
-      group: vagrant
-  home: /home
-  theme: nicoulaj
+    root:
+      username: root
+      group: root
+  home: /root
+  theme: agnoster
   disable-auto-update: false
   disable-update-prompt: true
   disable-untracked-files-dirty: true
-  plugins: git rails ruby debian zsh-navigation-tools
+  plugins: git zsh-completions  zsh-autosuggestions zsh-syntax-highlighting colored-man-pages
